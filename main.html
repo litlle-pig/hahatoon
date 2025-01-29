@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav__logo"><img src="svg/logo_nav.svg" alt="" /></div>
+      <nav class="nav">
+        <a href="" class="nav__link">Главная страница</a>
+        <a href="" class="nav__link">Услуги онлайн</a>
+        <a href="" class="nav__link">Контакты нас</a>
+        <div class="nav__sing">
+          <button class="nav__singIn">Вход</button>
+          <button class="nav__singup">Регистрация</button>
+        </div>
+      </nav>
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <script>
+      var hamburger = document.querySelector(".hamburger");
+      var nav = document.querySelector(".nav");
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("is-active");
+        nav.classList.toggle("nav-active");
+      });
+    </script>
+  </body>
+</html>
