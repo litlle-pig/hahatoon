@@ -1,0 +1,38 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav__link {
+  color: black;
+  font-weight: 500;
+}
+.nav__singIn {
+  padding: 8px 20px;
+  border-radius: 25px;
+  background: none;
+}
+.nav__logo {
+  z-index: 2;
+}
+.nav__sing {
+  display: flex;
+  gap: 10px;
+}
+.nav__singup {
+  padding: 8px 20px;
+  border-radius: 25px;
+  background: none;
+}
+.hamburger {
+  display: none;
+}
