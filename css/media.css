@@ -1,4 +1,17 @@
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1400px) {
+  .first__text h1 {
+    font-size: 44px;
+  }
+  .first__text p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .first__text h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 960px) {
   .hamburger {
     display: block;
     z-index: 1;
@@ -9,7 +22,7 @@
   .nav {
     position: fixed;
     width: 300px;
-    background-color: aquamarine;
+    background-color: rgba(189, 187, 188);
     height: 100%;
     padding: 0;
     display: flex;
@@ -26,10 +39,44 @@
   .nav-active {
     transform: translateX(0);
   }
+  .first__info {
+    flex-direction: column;
+  }
+  .first__text h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .first__text p {
+    text-align: center;
+  }
+  .btn-info {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 520px) {
   .nav {
     width: 250px;
+  }
+  .first__text h1 {
+    text-align: start;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .first__text p {
+    text-align: start;
+  }
+  .btn-info {
+    justify-content: start;
+  }
+  .second__info {
+    margin-top: 64px;
   }
 }

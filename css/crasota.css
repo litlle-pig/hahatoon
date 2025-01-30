@@ -1,6 +1,59 @@
 .wrapper {
   max-width: 1800px;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+body {
+  font-family: sans-serif;
+}
+img {
+  width: 100%;
+}
+.btn-hover:hover {
+  background: #000;
+  color: white;
+  transition: 0.5s;
+}
+.btn {
+  border-radius: 25px;
+  padding: 12px 24px;
+  background: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn__green {
+  background: rgba(44, 162, 73, 1);
+  color: white;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn__green:hover {
+  transform: scale(1.1);
+}
+
+.first__info {
+  display: flex;
+  gap: 80px;
+  margin-top: 120px;
+}
+.first__text {
+  max-width: 620px;
+}
+.first__text h1 {
+  font-size: 56px;
+}
+.first__text p {
+  font-size: 18px;
+  line-height: 27px;
+}
+.btn-info {
+  display: flex;
+  gap: 15px;
+}
+
+.second__info {
+  margin-top: 224px;
 }
