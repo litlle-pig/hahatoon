@@ -10,6 +10,12 @@
   .first__text h1 {
     font-size: 36px;
   }
+  .wrapper {
+    padding: 0 40px;
+  }
+  .support__block {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 960px) {
   .hamburger {
@@ -18,6 +24,10 @@
   }
   .navbar {
     justify-content: space-between;
+  }
+  .support__block {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
   .nav {
     position: fixed;
@@ -65,6 +75,9 @@
   .nav {
     width: 250px;
   }
+  .wrapper {
+    padding: 0;
+  }
   .first__text h1 {
     text-align: start;
     font-size: 36px;
@@ -78,5 +91,8 @@
   }
   .second__info {
     margin-top: 64px;
+  }
+  .support__text p {
+    line-height: 28px;
   }
 }
